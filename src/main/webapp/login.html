@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+
+<body class="center">
+
+<div class="card">
+<h2>Attendance System</h2>
+
+<form action="LoginServlet" method="post" onsubmit="return validateLogin()">
+    <input type="text" id="username" name="username" placeholder="Username">
+    <input type="password" id="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
+</form>
+
+</div>
+
+</body>
+</html>
